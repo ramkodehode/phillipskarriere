@@ -38,7 +38,7 @@ const HomeText = () => {
   return (
     <div>
       <HomeTitle>
-        Test. Her kommer <br /> websiden til <br /> Phillipskarriere.no
+        Her kommer <br /> websiden til <br /> Phillipskarriere.no
       </HomeTitle>
       <HomeSmaller>
         {/* Lev livet ditt her og nå, og vær samtidig nysgjerrig på fremtiden din!
