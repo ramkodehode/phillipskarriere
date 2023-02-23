@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const HomeTitle = styled.h1`
   position: absolute;
@@ -7,7 +7,7 @@ export const HomeTitle = styled.h1`
   left: 73px;
   top: 100px;
 
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
@@ -25,7 +25,7 @@ export const HomeSmaller = styled.p`
   left: 73px;
   top: 400px;
 
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -38,7 +38,7 @@ const HomeText = () => {
   return (
     <div>
       <HomeTitle>
-        Her kommer <br /> websiden til <br /> Phillipskarriere.no
+        Test. Her kommer <br /> websiden til <br /> Phillipskarriere.no
       </HomeTitle>
       <HomeSmaller>
         {/* Lev livet ditt her og nå, og vær samtidig nysgjerrig på fremtiden din!
