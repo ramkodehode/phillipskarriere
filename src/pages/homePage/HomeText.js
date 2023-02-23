@@ -15,7 +15,7 @@ export const HomeTitle = styled.h1`
 
   text-transform: uppercase;
 
-  color: #e3f2ff;
+  color: red;
 `;
 
 export const HomeSmaller = styled.p`
