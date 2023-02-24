@@ -1,10 +1,4 @@
-import {
-  Column,
-  Container,
-  MarginDiv,
-  NewSection,
-  NewSectionSuccess,
-} from "../styles/Styles";
+import { Column, Container, NewSectionSuccess } from "../styles/Styles";
 
 import styled from "styled-components";
 
@@ -30,7 +24,7 @@ export const MarginDivSuccess = styled.div`
   height: 314px;
 
   left: 87px;
-  top: 1271px;
+  top: 1200px;
   position: absolute;
 `;
 
@@ -58,28 +52,70 @@ export const TextMuligheter = styled.p`
   font-family: "Poppins";
 `;
 
+export const LinkedinButton = styled.button`
+  padding: 5px;
+  font-size: 1.5rem;
+  font-family: "Poppins";
+`;
+
+export const MobilText = styled.p`
+  font-size: 1.5rem;
+  font-family: "Poppins";
+`;
+
+const urlLinkedin =
+  "https://www.linkedin.com/in/trude-skarstein-phillips-4b7a97251/";
+
 const Sucess = () => {
   return (
-    <Container>
-      <NewSectionSuccess>
-        <Column>
-          <Container>
-            <MarginDivSuccess>
-              <TitleMuligheter>Trude Skarstein Phillips</TitleMuligheter>
+    <div>
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      ></link>
 
-              <TextMuligheter>
-                Karriereveileder og foreleser på høyskole nivå innen HR,
+      <Container>
+        <NewSectionSuccess>
+          <Column>
+            <Container>
+              <MarginDivSuccess>
+                <TitleMuligheter>Trude Skarstein Phillips</TitleMuligheter>
+
+                <TextMuligheter>
+                  {/* Karriereveileder og foreleser på høyskole nivå innen HR,
                 organisasjon og ledelse. Utvikler og leverer
                 karrierelæringsprogram for unge og voksne. Mange års erfaring
-                fra ledelse, rekruttering pg som selvstending næringsdrivende.
-              </TextMuligheter>
-            </MarginDivSuccess>
-          </Container>
-          <BackgroundBox />
-          <Image src={Trude} alt="picture of Trude" />
-        </Column>
-      </NewSectionSuccess>
-    </Container>
+                fra ledelse, rekruttering pg som selvstending næringsdrivende. */}
+                  Karriereveileder i eget selskap hvor jeg utvikler og leverer
+                  karrierelæringsprogram for mennesker i omstilling og
+                  overganger. Foreleser i tillegg på høyskolenivå innen HR,
+                  organisasjon og ledelse. Har mange års erfaring fra ulike
+                  roller innen hotelledelse, prosjektledelse og
+                  forretningsutvikling. De siste 12 årene som selvstendig
+                  næringsdrivende innen rekruttering og omstilling. Formal
+                  kompetanse; Økonomi, markedsføring, prosjektledelse,
+                  pedagogikk, og master i karriereveiledning.
+                  <br />
+                  <br></br>
+                  <MobilText>Mobil: 91691334</MobilText>
+                  <MobilText>Epost: trude@phillipskarriere.no </MobilText>
+                  <br />
+                  <LinkedinButton
+                    onClick={() => {
+                      window.location.href = urlLinkedin;
+                    }}
+                  >
+                    Linkedin <i class="fa fa-linkedin-square"></i>
+                  </LinkedinButton>
+                </TextMuligheter>
+              </MarginDivSuccess>
+            </Container>
+            <BackgroundBox />
+            <Image src={Trude} alt="picture of Trude" />
+          </Column>
+        </NewSectionSuccess>
+      </Container>
+    </div>
   );
 };
 

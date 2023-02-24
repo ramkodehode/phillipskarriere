@@ -38,14 +38,15 @@ const HomeText = () => {
   return (
     <div>
       <HomeTitle>
-        Her kommer <br /> websiden til <br /> Phillipskarriere.no
+        Her kommer <br /> Phillipskarriere.no
       </HomeTitle>
       <HomeSmaller>
         {/* Lev livet ditt her og nå, og vær samtidig nysgjerrig på fremtiden din!
         Du skal ha mulighet til å finne og velge din studie- og yrkesretning ut
         i fra egne ønsker, interesser og forutsetninger. */}
-        Vår karriereveildning hjelper deg å finne veien videre.
+        Karriereveiledning - en god investering for mennesker i omstilling
         <br></br>
+        <br />
         Dine muligheter - vårt ansvar
       </HomeSmaller>
     </div>
