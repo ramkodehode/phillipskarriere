@@ -8,7 +8,7 @@ import {
 
 import styled from "styled-components";
 
-import Trude from "../img/Trude.png";
+import Trude from "../img/Trude.jpg";
 
 export const Image = styled.img`
   width: 561px;
