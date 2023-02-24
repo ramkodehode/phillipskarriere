@@ -15,6 +15,8 @@ export const KomIgang = styled.h1`
   text-align: center;
 
   color: #000000;
+
+  text-transform: uppercase;
 `;
 
 export const EmailButton = styled.button`
@@ -74,7 +76,7 @@ const KomIgjen = () => {
         TA KONTAKT
       </EmailButton>
 
-      <StyledInput type="email" id="email" required placeholder="Din Email" />
+      <StyledInput type="email" id="email" required placeholder="Din epost" />
 
       <EmptySpace></EmptySpace>
     </div>
