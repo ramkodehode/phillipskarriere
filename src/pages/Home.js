@@ -13,6 +13,10 @@ export const Box = styled.div`
   top: 160px;
 
   background: #254d5e;
+
+  @media only screen and (max-width: 40em) {
+    width: 90rem;
+  }
 `;
 
 export const PicStudent = styled.img`
@@ -23,6 +27,9 @@ export const PicStudent = styled.img`
   top: 220px;
 
   @media only screen and (max-width: 40em) {
+    border-radius: 20%;
+    left: 650px;
+    top: 200px;
   }
 `;
 

@@ -17,6 +17,12 @@ export const Image = styled.img`
   top: 1203px;
 
   position: absolute;
+
+  @media only screen and (max-width: 40em) {
+    /* left: 87px;
+    top: 1700px; */
+    border-radius: 50%;
+  }
 `;
 
 export const MarginDivSuccess = styled.div`
@@ -36,6 +42,10 @@ export const BackgroundBox = styled.div`
   top: 1151px;
 
   background: #195570;
+
+  @media only screen and (max-width: 40em) {
+    display: none;
+  }
 `;
 
 export const TitleMuligheter = styled.h1`

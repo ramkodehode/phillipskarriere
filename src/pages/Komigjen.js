@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const KomIgang = styled.h1`
   position: absolute;
@@ -7,7 +7,7 @@ export const KomIgang = styled.h1`
   left: 242px;
   top: 2059px;
 
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -28,7 +28,7 @@ export const EmailButton = styled.button`
   background: #ffffff;
   border-radius: 3px;
 
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -53,6 +53,10 @@ export const EmptySpace = styled.div`
   top: 2400px;
 
   background: rgba(0, 0, 0, 0.8);
+
+  @media only screen and (max-width: 40em) {
+    width: 90rem;
+  }
 `;
 
 const KomIgjen = () => {
@@ -63,7 +67,7 @@ const KomIgjen = () => {
       <EmailButton
         onClick={() =>
           window.open(
-            'mailto:trude@phillipskarriere.no?subject=Subject&body=Body%20goes%20here'
+            "mailto:trude@phillipskarriere.no?subject=Subject&body=Body%20goes%20here"
           )
         }
       >
