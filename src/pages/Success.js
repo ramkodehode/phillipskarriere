@@ -86,14 +86,14 @@ const Sucess = () => {
                 organisasjon og ledelse. Utvikler og leverer
                 karrierelæringsprogram for unge og voksne. Mange års erfaring
                 fra ledelse, rekruttering pg som selvstending næringsdrivende. */}
-                  Karriereveileder i eget selskap hvor jeg utvikler og leverer
-                  karrierelæringsprogram for mennesker i omstilling og
-                  overganger. Foreleser i tillegg på høyskolenivå innen HR,
-                  organisasjon og ledelse. Har mange års erfaring fra ulike
-                  roller innen hotelledelse, prosjektledelse og
-                  forretningsutvikling. De siste 12 årene som selvstendig
-                  næringsdrivende innen rekruttering og omstilling. Formal
-                  kompetanse; Økonomi, markedsføring, prosjektledelse,
+                  Karriereveileder og rådgiver i eget selskap. Jeg utvikler og
+                  leverer ulike karrierelæringsprogram. Kundene mine er unge og
+                  voksne i omstilling på studie- og arbeidsmarkedet. Foreleser i
+                  tillegg på høyskolenivå innen HR, organisasjon og ledelse. Har
+                  mange års erfaring fra ulike roller innen hotelledelse,
+                  prosjektledelse og forretningsutvikling. De siste 12 årene som
+                  selvstendig næringsdrivende innen rekruttering og omstilling.
+                  Formal kompetanse; Økonomi, markedsføring, prosjektledelse,
                   pedagogikk, og master i karriereveiledning.
                   <br />
                   <br></br>
