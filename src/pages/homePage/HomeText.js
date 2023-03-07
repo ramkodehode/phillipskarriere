@@ -41,9 +41,6 @@ const HomeText = () => {
         Her kommer <br /> Phillipskarriere.no
       </HomeTitle>
       <HomeSmaller>
-        {/* Lev livet ditt her og nå, og vær samtidig nysgjerrig på fremtiden din!
-        Du skal ha mulighet til å finne og velge din studie- og yrkesretning ut
-        i fra egne ønsker, interesser og forutsetninger. */}
         Karriereveiledning - en god investering for mennesker i omstilling
         <br></br>
         <br />
